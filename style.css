@@ -57,6 +57,19 @@ h3 {
     margin: auto;
     width: 50%;
 }
+#baddie {
+    width: 100%;
+    height: auto;
+}
+
+#bannerCarousel {
+    width: 100%;
+}
+
+#bannerCarousel .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
 
 .flex_img_container {
     padding: 3rem;
@@ -66,7 +79,7 @@ h3 {
 }
 
 #flex_img_2 {
-    height: 40%;
+    height:40%;
 }
 
 .flex_img_container img {
@@ -153,6 +166,10 @@ p {
 
 #visitors_container:nth-child(1) {
     font-size: 4rem;
+}
+#baddie {
+    width: 90%;
+    margin: auto;
 }
 
 #visitors_counter {
